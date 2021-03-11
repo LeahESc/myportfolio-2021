@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div className="intro">
                 <Grid columns={3}>
-                    <Grid.Column width={9}>
+                    <Grid.Column width={10}>
                     <div className="intro--title">
                         <h1> Hi, I'm Leah Schlackman</h1>
                     </div>
@@ -17,7 +17,7 @@ class Home extends Component {
                         Full Stack Software Engineer + lover of pho
                     </div>
                 </Grid.Column>
-                <Grid.Column width={5}>
+                <Grid.Column width={6}>
                     <div className="pho-bowl">
                         <img src={pho}/>
                     </div>
