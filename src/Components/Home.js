@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import pho from '../images/pho.png'
 import TechSkills from './TechSkills'
+import Navbar from './Navbar'
 import {Grid, Column} from 'semantic-ui-react'
 
 class Home extends Component {
     
     render() {
         return (
+            <>
+            <Navbar />
             <div className="intro">
                 <Grid columns={3}>
                     <Grid.Column width={10}>
@@ -26,6 +29,7 @@ class Home extends Component {
                 {/* <TechSkills /> */}
                 
             </div>
+            </>
         )
     }
 }
