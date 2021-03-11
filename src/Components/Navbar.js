@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { Icon } from 'semantic-ui-react'
 
 // export default class Navbar extends Component {
@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         < div >
-            <nav className="navbar" style={{background: '#ffecfc'}}>
+            <nav className="navbar" >
                 <NavLink to='/'
                     activeStyle={{
                         fontWeight: "bold",
@@ -16,14 +16,14 @@ const Navbar = () => {
                     }} >
                     Home
                 </NavLink>
-                <NavLink to='/about'
+                <Link to='/about'
                     activeStyle={{
                         fontWeight: "bold",
                         color: "white",
                         background: "black"
                     }} >
                     About
-                </NavLink>
+                </Link>
                 <NavLink to='/work'
                     activeStyle={{
                         fontWeight: "bold",

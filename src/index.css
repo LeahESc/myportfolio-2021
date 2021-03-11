@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,79 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+:root {
+    --ff-primary: 'Courier New', Courier, monospace;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #000000;
+    --clr-accent: #68acd3;
+    --clr-bkground: #d8f7d6;
+
+  
+    --fs-h1: 9rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem; 
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25);
+}
+
+@media (min-width: 800px) {
+    :root {
+        
+        --fs-h1: 9.75rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-h4: 1rem;
+        --fs-body: 1rem;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Portfolio { 
+    background: #d8f7d6;
+    color: #000000;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: var(--fs-body); */
+    line-height: 1.6;
+
+}
+
+strong {
+    font-weight: var(--fw-bold)
+}
+
+img { 
+    /* display: block; */
+    max-width: 100%;
+}
+
+/* h1, h2, h3 {
+    line-height: 1; 
+    margin: 0;
+} */
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20em;
+    line-height: 1;
+    margin: 0;
+}
+
+h2 {
+    font-size: var(--fs-h2)
+}
+
+h3 {
+    font-size: var(--fs-h3)
 }

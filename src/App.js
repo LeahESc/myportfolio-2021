@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './index.css';
 import Home from './Components/Home'
@@ -10,6 +9,7 @@ import Work from './Components/Work'
 function App() {
   return (
     <Router> 
+      <div className="Portfolio">
     {/* <div className="Portfolio">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +21,7 @@ function App() {
     <Route exact path='/' component={Home} />
     <Route exact path='/about' component={About} />
     <Route exact path='/work' component={Work} />
+    </div>
     </Router>
   );
 }
