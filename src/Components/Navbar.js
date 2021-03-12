@@ -8,30 +8,42 @@ const Navbar = () => {
     return (
         < div >
             <nav className="navbar" >
-                <NavLink to='/'
+                <Link to='/'
+                    style={{
+                        color: "black",
+                        padding: "1em"
+                    }}
                     activeStyle={{
-                        fontWeight: "bold",
+                        
                         color: "white",
-                        background: "black"
+                        // background: "black"
                     }} >
                     Home
-                </NavLink>
+                </Link>
                 <Link to='/about'
+                    style={{
+                        color: "black",
+                        padding: "1em"
+                    }}
                     activeStyle={{
-                        fontWeight: "bold",
+                        
                         color: "white",
                         background: "black"
                     }} >
                     About
                 </Link>
-                <NavLink to='/work'
+                <Link to='/work'
+                    style={{
+                        color: "black",
+                        padding: "1em"
+                    }}
                     activeStyle={{
-                        fontWeight: "bold",
                         color: "white",
-                        background: "black"
+                        background: "black",
+                        padding: "0em"
                     }} >
                     My Work
-                </NavLink>
+                </Link>
             </nav>
         </div>
     )

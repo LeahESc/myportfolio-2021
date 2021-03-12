@@ -48,6 +48,14 @@ html {
   line-height: 1.6;
 }
 
+.navbar{
+  font-size: 2em;
+  color: var(--clr-dark);
+  /* margin-right: 1em; */
+  text-align: right;
+
+}
+
 h1.intro--title {
   font-family: var(--ff-primary);
   font-size: 12rem;
