@@ -13,12 +13,10 @@ class Home extends Component {
             <div className="intro">
                 <Grid columns={3}>
                     <Grid.Column width={10}>
-                    <div className="intro--title">
-                        <h1 class="intro--title"> Hi, I'm Leah Schlackman</h1>
-                    </div>
-                    <div className="intro--subtitle">
-                        Full Stack Software Engineer + lover of pho
-                    </div>
+                    {/* <div class="intro--title"> */}
+                        <h1 className="intro--title"> Hi, I'm Leah Schlackman</h1>
+                    {/* </div> */}
+                    
                 </Grid.Column>
                 <Grid.Column width={6}>
                     <div className="pho-bowl">
@@ -26,6 +24,9 @@ class Home extends Component {
                     </div>
                 </Grid.Column>
                 </Grid>
+                <div className="intro--subtitle">
+                        Full Stack Software Engineer + lover of pho
+                </div>
                 {/* <TechSkills /> */}
                 
             </div>
