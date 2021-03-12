@@ -14,7 +14,7 @@ class Home extends Component {
                 <Grid columns={3}>
                     <Grid.Column width={10}>
                     <div className="intro--title">
-                        <h1> Hi, I'm Leah Schlackman</h1>
+                        <h1 class="intro--title"> Hi, I'm Leah Schlackman</h1>
                     </div>
                     <div className="intro--subtitle">
                         Full Stack Software Engineer + lover of pho
