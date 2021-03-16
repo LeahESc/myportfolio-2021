@@ -14,7 +14,7 @@
   --clr-light: #fff;
   --clr-dark: #000000;
   --clr-accent: #68acd3;
-  --clr-bkground: #d8f7d6;
+  --clr-bkground: #DBEFE1;
 
 
   --fs-h1: 9rem;
@@ -70,6 +70,11 @@ h1.intro--title {
   margin-right: 2em;
 }
 
+.pho-bowl {
+  align-items: stretch;
+  vertical-align: bottom;
+}
+
 strong {
     font-weight: var(--fw-bold)
 }
@@ -120,5 +125,5 @@ h2.about-me {
 }
 
 p.about-me {
-  font-size: 2em;
+  font-size: 1.5em;
 }

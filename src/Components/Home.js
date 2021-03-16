@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import pho from '../images/pho.png'
 import TechSkills from './TechSkills'
-import Navbar from './Navbar'
+import phomovie from '../images/phomovie.mp4'
 import {Grid, Column} from 'semantic-ui-react'
 
 class Home extends Component {
@@ -19,7 +19,10 @@ class Home extends Component {
                 </Grid.Column>
                 <Grid.Column width={6}>
                     <div className="pho-bowl">
-                        <img src={pho}/>
+                         {/* <img src={pho}/> */}
+                        <video controls autoPlay loop muted> 
+                        <source src={phomovie} type="video/mp4"></source>
+                        </video>
                     </div>
                 </Grid.Column>
                 </Grid>
