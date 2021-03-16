@@ -1,45 +1,66 @@
 import React, { Component } from 'react'
+import {Item, Label, Image, Grid, Column, Row} from 'semantic-ui-react'
 
 export default class Work extends Component {
     render() {
         return (
-            <div className="my-work" id="projects">
+            <div className="my-work" id="projects">    
                 <h2 className="section__title--work">Technical Projects</h2>
                 <p className="section__subtitle--work">A few examples of my most recent work</p>
+                <Grid columns={2} >
+                    <Grid.Row>
+                    <Grid.Column width={6}> 
+                        <div className="video-container">
+                            <iframe src="https://www.youtube.com/embed/4yJX0-LJ02w" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </Grid.Column>
+                    <Grid.Column width={10}>
+                        <p className="project-description">
+                            <strong>Small Shops Big Community</strong> was built with a React/Redux frontend and Rails API backend. 
+                            This yelp-style application allows a user to search for a type of business and select one or many 'community-parameters' that they'd like to support with their conscious consumer dollars. 
+                            For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
+                                <br/>
+                                <br/>
+                            <strong> The Why:</strong> I was inspired to make this project by the independently-generated google sheets and excel documents that circulated throughout LA in the summer of 2020 highlighting black-owned businesses in Los Angeles.
+                            I wanted this application to echo that sentiment of conscious consumerism as well as celebrate the diversity of business-owners in Los Angeles.
 
-    
-                <div className="video-container">
-                    <iframe src="https://www.youtube.com/embed/4yJX0-LJ02w" 
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-
-                <p className="project-description">
-                    <strong>Small Shops Big Community</strong> was built with a React/Redux frontend and Rails API backend. This yelp-style application allows a user to search for a type of business and community of business owners they'd like to support with their conscious consumer dollars.
-                </p>
-         
-
-                
-            <div className="video-container">   
-                <iframe src="https://www.youtube.com/embed/v6jWvsM1jN0?start=4" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            </div>
-
-                <p className="project-description">
-                    <strong>Vacation Homes Manager</strong> has a Rails frontend and backend. It allows for third-party authentication through GitHub and Google. Users can sign up or login to manage their luxurious vacation home properties. 
-                </p>
-            
-             <div class="video-container">  
-                <iframe src="https://www.youtube.com/embed/SR-Ia6gjizM?start=2" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            </div>
-
-                <p className="project-description">
-                    <strong>Trip Itinerary Maker </strong> is a vanilla Javascript project that allows users to plan detailed itineraries for upcoming travel destinations.
-                </p>
-
+                            {/* <strong>The Challenge:</strong> There were a number of challenges with this project, one of the biggest ones was figuring out how to properly structure and organize the Redux store. A user has the ability to add new shops as well as
+                            new reviews. Instead of having separate state objects for shops and reviews, I wanted to nest each of these within the larger 'category' object. A single category knows about all of its shops and
+                            all of its shops' reviews. Figuring out the proper nesting structure took a lot of trial and error but eventually I was able to have everything in global state relate to a category object. */}
+                        </p>
+                    </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                    <Grid.Column width={6}> 
+                        <div className="video-container">   
+                            <iframe src="https://www.youtube.com/embed/v6jWvsM1jN0?start=4" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </Grid.Column>
+                    <Grid.Column width={10}>
+                        <p className="project-description">
+                            <strong>Vacation Homes Manager</strong> Small Shops Big Community was built with a React/Redux frontend and Rails API backend. This yelp-style application allows a user to search for a type of business and community of business owners they'd like to support with their conscious consumer dollars. has a Rails frontend and backend. It allows for third-party authentication through GitHub and Google. Users can sign up or login to manage their luxurious vacation home properties. 
+                        </p>
+                    </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                    <Grid.Column width={6}> 
+                        <div class="video-container">  
+                            <iframe src="https://www.youtube.com/embed/SR-Ia6gjizM?start=2" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                        </Grid.Column>
+                    <Grid.Column width={10}>
+                        <p className="project-description">
+                            <strong>Trip Itinerary Maker </strong> is a vanilla Javascript project that allows users to plan detailed itineraries for upcoming travel destinations.
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+                </Grid>
             </div>
         )
     }
