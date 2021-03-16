@@ -13,7 +13,8 @@ class Home extends Component {
                 <Grid columns={3}>
                     <Grid.Column width={10}>
                     {/* <div class="intro--title"> */}
-                        <h1 className="intro--title"> Hi, I'm Leah Schlackman</h1>
+                        <h1 className="intro--title"> Hi,</h1>
+                        <h1 className="intro--title"> I'm Leah</h1>
                     {/* </div> */}
                     
                 </Grid.Column>

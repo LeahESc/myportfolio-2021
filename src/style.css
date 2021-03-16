@@ -51,14 +51,14 @@ html {
 .navbar{
   font-size: 2em;
   color: var(--clr-dark);
-  /* margin-right: 1em; */
+  background: rgb(255, 255, 255);
   text-align: right;
 
 }
 
 h1.intro--title {
   font-family: var(--ff-primary);
-  font-size: 12rem;
+  font-size: 14rem;
   margin-left: .2em;
 }
 
@@ -71,7 +71,7 @@ h1.intro--title {
 }
 
 .pho-bowl {
-  align-items: stretch;
+  vertical-align: bottom;
   vertical-align: bottom;
 }
 
@@ -95,7 +95,7 @@ h1, h2, h3 {
   justify-content: center;
   align-self: center;
   align-content: center;
-  padding-top: 20px;
+  margin-top: 5%;
 }
 
 h2.technical-skills{
