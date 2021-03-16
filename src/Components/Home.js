@@ -27,8 +27,9 @@ class Home extends Component {
                 <div className="intro--subtitle">
                         Full Stack Software Engineer + lover of pho
                 </div>
-                {/* <TechSkills /> */}
-                
+                <Grid.Row>
+                <TechSkills />
+                </Grid.Row>
             </div>
             </>
         )
