@@ -103,3 +103,22 @@ h2.technical-skills{
   align-items: center;
   justify-content: center;
 }
+
+
+.about {
+  align-content: center;
+  margin-top: 10%;
+}
+.img-container {
+  max-width: 500px;
+  max-height: 600px;
+}
+
+h2.about-me {
+  font-size: 4em;
+  font-family:'Courier New', Courier, monospace
+}
+
+p.about-me {
+  font-size: 2em;
+}

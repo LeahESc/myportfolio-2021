@@ -9,7 +9,6 @@ class Home extends Component {
     render() {
         return (
             <>
-            <Navbar />
             <div className="intro">
                 <Grid columns={3}>
                     <Grid.Column width={10}>
