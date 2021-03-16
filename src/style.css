@@ -90,11 +90,11 @@ h1, h2, h3 {
 }
 
 .technical-skills{
-  align-items: center;
+  /* align-items: center; */
   font-family: 'Courier New', Courier, monospace;
-  justify-content: center;
+  /* justify-content: center;
   align-self: center;
-  align-content: center;
+  align-content: center; */
   margin-top: 5%;
 }
 
@@ -105,8 +105,8 @@ h2.technical-skills{
 }
 
 .tech-imgs {
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 
