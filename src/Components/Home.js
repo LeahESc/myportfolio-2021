@@ -10,29 +10,27 @@ class Home extends Component {
         return (
             <>
             <div className="intro">
-                <Grid columns={3}>
-                    <Grid.Column width={10}>
+                {/* <Grid columns={3}>
+                    <Grid.Column width={10}> */}
                     {/* <div class="intro--title"> */}
                         <h1 className="intro--title"> Hi,</h1>
                         <h1 className="intro--title"> I'm Leah</h1>
                     {/* </div> */}
                     
-                </Grid.Column>
+                {/* </Grid.Column>
                 <Grid.Column width={6}>
-                    <div className="pho-bowl">
+                    <div className="pho-bowl"> */}
                          {/* <img src={pho}/> */}
-                        <video controls autoPlay loop muted> 
+                        {/* <video controls autoPlay loop muted> 
                         <source src={phomovie} type="video/mp4"></source>
-                        </video>
-                    </div>
-                </Grid.Column>
-                </Grid>
+                        </video> */}
+                    {/* </div> */}
+                {/* </Grid.Column>
+                </Grid> */}
                 <div className="intro--subtitle">
-                        Full Stack Software Engineer + lover of pho
+                        Full Stack Software Engineer + lover of pho 
                 </div>
-                <Grid.Row>
-                <TechSkills />
-                </Grid.Row>
+               
             </div>
             </>
         )
