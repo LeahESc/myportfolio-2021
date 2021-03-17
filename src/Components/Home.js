@@ -3,6 +3,7 @@ import pho from '../images/pho.png'
 import TechSkills from './TechSkills'
 import phomovie from '../images/phomovie.mp4'
 import {Grid, Column} from 'semantic-ui-react'
+import Footer from './Footer'
 
 class Home extends Component {
     
@@ -30,7 +31,8 @@ class Home extends Component {
                 <div className="intro--subtitle">
                         Full Stack Software Engineer + lover of pho 
                 </div>
-               
+                <Footer />
+           
             </div>
             </>
         )

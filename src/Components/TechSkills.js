@@ -13,7 +13,7 @@ class TechSkills extends Component {
         return (
             <div className="technical-skills">
                 <h2 className="technical-skills">Technical Skills</h2>
-                <div className="tech-imgs">
+                <div className="tech-img-container">
                     <img className="tech-skill" src={_rea}></img>
                     <img className="tech-skill" src={_red}></img>
                     <img className="tech-skill" src={_jav}></img>

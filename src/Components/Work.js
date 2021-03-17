@@ -6,7 +6,7 @@ class Work extends Component {
     render() {
         return (
             <>
-            <TechSkills/>
+            {/* <TechSkills/> */}
             <div className="my-work" id="projects">    
                 <h2 className="section__title--work">Technical Projects</h2>
                 <p className="section__subtitle--work">A few examples of my most recent work</p>
@@ -78,7 +78,9 @@ class Work extends Component {
                     </Grid.Column>
                     </Grid.Row>
                 </Grid>
+                
             </div>
+            <TechSkills/>
             </>
         )
     }
