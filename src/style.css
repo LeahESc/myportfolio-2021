@@ -16,7 +16,9 @@
   --clr-light: #fff;
   --clr-dark: #000000;
   --clr-accent: #ff82e4;
-  --clr-bkground: #fac4a5;
+  --clr-bkground: papayawhip;
+  /* --clr-bkground: #fac4a5; */
+  --clr-second: #fab68e;
 
 
   --fs-h1: 9rem;
@@ -52,7 +54,7 @@ html {
 .navbar{
   font-size: 2em;
   color: var(--clr-light);
-  background: var(--clr-background);
+  background: var(--clr-bkground);
   text-align: right;
   font-weight: 800;
 }
@@ -125,7 +127,7 @@ h2.technical-skills{
 .img-container {
   max-width: 500px;
   max-height: 600px;
-  align-items: right;
+  float: right;
 }
 
 h2.about-me {
@@ -137,7 +139,8 @@ h2.about-me {
 
 p.about-me {
   font-size: var(--fs-h3);
-  margin-right: 1em;
+  margin-right: 2em;
+  color: var(--clr-second)
 }
 
 .my-work{
@@ -168,7 +171,9 @@ h2.section__title--work {
   overflow: hidden;
   position: relative;
   width: 100%;
-  /* align-items: center; */
+  background:var(--clr-second);
+  /* padding: 4px; */
+  align-items: center;
 }
 
 .video-container::after {
@@ -179,8 +184,10 @@ h2.section__title--work {
 
 .video-container iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  align-self: center;
+  /* top: 0;
+  left: 0; */
+  padding: 15px;
   width: 100%;
   height: 100%;
 }
@@ -188,6 +195,7 @@ h2.section__title--work {
 .project-description {
   font-size: var(--fs-h3);
   font-family: var(--ff-primary);
+  color: var(--clr-second)
 }
 
 p.project-highlight {

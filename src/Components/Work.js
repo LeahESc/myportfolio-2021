@@ -26,8 +26,8 @@ class Work extends Component {
                             For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
                                 <br/>
                                 <br/>
-                            <strong> The Why:</strong> I was inspired to make this project by the independently-generated google sheets and excel documents that circulated throughout LA in the summer of 2020 highlighting black-owned businesses in Los Angeles.
-                            I wanted this application to echo that sentiment of conscious consumerism as well as celebrate the diversity of business-owners in Los Angeles.
+                            {/* <strong> The Why:</strong> I was inspired to make this project by the independently-generated google sheets and excel documents that circulated throughout LA in the summer of 2020 highlighting black-owned businesses in Los Angeles.
+                            I wanted this application to echo that sentiment of conscious consumerism as well as celebrate the diversity of business-owners in Los Angeles. */}
 
                             {/* <strong>The Challenge:</strong> There were a number of challenges with this project, one of the biggest ones was figuring out how to properly structure and organize the Redux store. A user has the ability to add new shops as well as
                             new reviews. Instead of having separate state objects for shops and reviews, I wanted to nest each of these within the larger 'category' object. A single category knows about all of its shops and
@@ -52,8 +52,8 @@ class Work extends Component {
                             location, number of bedrooms/bathrooms as well as other amenities.
                             <br/>
                             <br/>
-                            <strong> The Why:</strong> I wanted to build an application that would allow porperty-owners to manage and track their various vacation homes.
-                            In a future build-out I'd like to add the option to add whether a particular property is being rented at the current moment.
+                            {/* <strong> The Why:</strong> I wanted to build an application that would allow porperty-owners to manage and track their various vacation homes.
+                            In a future build-out I'd like to add the option to add whether a particular property is being rented at the current moment. */}
                         </p>
                     </Grid.Column>
                     </Grid.Row>
@@ -72,8 +72,8 @@ class Work extends Component {
                             <strong>Trip Itinerary Maker </strong> is a vanilla Javascript project that allows users to plan detailed itineraries for upcoming travel destinations.
                             <br/>
                             <br/>
-                            <strong> The Why:</strong> When I travel I like to create google documents outlining all of the museums, sights, and restaurants I want to visit at every destination. I wanted to create 
-                            an application that would keep all that information in one place, organized by category and trip destination.
+                            {/* <strong> The Why:</strong> When I travel I like to create google documents outlining all of the museums, sights, and restaurants I want to visit at every destination. I wanted to create 
+                            an application that would keep all that information in one place, organized by category and trip destination. */}
                         </p>
                     </Grid.Column>
                     </Grid.Row>
