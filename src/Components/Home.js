@@ -9,32 +9,20 @@ class Home extends Component {
     
     render() {
         return (
-            <>
-            <div className="intro">
-                {/* <Grid columns={3}>
-                    <Grid.Column width={10}> */}
-                    {/* <div class="intro--title"> */}
-                        <h1 className="intro--title"> Hi,</h1>
-                        <h1 className="intro--title"> I'm Leah</h1>
-                    {/* </div> */}
-                    
-                {/* </Grid.Column>
-                <Grid.Column width={6}>
-                    <div className="pho-bowl"> */}
-                         {/* <img src={pho}/> */}
-                        {/* <video controls autoPlay loop muted> 
-                        <source src={phomovie} type="video/mp4"></source>
-                        </video> */}
-                    {/* </div> */}
-                {/* </Grid.Column>
-                </Grid> */}
+            <div className="intro-header">
+            <div className="intro-text">
+
+                <h1 className="intro--title">
+                    <span className="intro--title--first "> Hi,</span>
+                    <span className="intro--title--second"> I'm Leah</span>
+                </h1>
+
                 <div className="intro--subtitle">
                         Full Stack Software Engineer + lover of pho 
                 </div>
-                <Footer />
-           
             </div>
-            </>
+                <Footer />
+            </div>
         )
     }
 }

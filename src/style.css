@@ -1,7 +1,9 @@
 *, 
 *::before,
 *::after {
-    box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
 }
 
 :root {
@@ -43,12 +45,17 @@ html {
     scroll-behavior: smooth;
 }
 
-.Portfolio { 
+strong {
+  font-weight: var(--fw-bold)
+}
+
+.body { 
   background: var(--clr-bkground);
-  color: var(--clr-light);
+  color: var(--clr-accent);
   margin: 0;
   font-size: var(--fs-body);
   line-height: 1.6;
+  height: 100%;
 }
 
 .navbar{
@@ -59,8 +66,14 @@ html {
   font-weight: 800;
 }
 
-.intro {
-  margin-top: 150px;
+.intro-header {
+  position: relative;
+}
+
+.intro-text{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 30%)
 }
 
 h1.intro--title {
@@ -69,22 +82,68 @@ h1.intro--title {
   font-size: 14rem;
   font-weight: 800;
   text-align: center;
+  line-height: 1.2;
+  backface-visibility: hidden;
+}
+
+.intro--title--first {
+  display: block;
+  animation: moveInLeft 1.5s ease-out 
+}
+
+.intro--title--second {
+  display: block;
+  animation: moveInRight 1.5s ease-out
 }
 
 .intro--subtitle {
   font-family: var(--ff-primary);
   color: var(--clr-accent);
   font-size: 2em;
+  line-height: 1.9;
   text-align: center;
+  animation: moveInBottom 1s ease-out;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
 }
 
-.pho-bowl {
-  vertical-align: bottom;
-  vertical-align: bottom;
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0)
+  }
 }
 
-strong {
-    font-weight: var(--fw-bold)
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(100px)
+  }
+
+  100% {
+      opacity: 1;
+      /* translate(0) makes it look the way it is originally coded to look */
+      transform: translate(0);
+
+  }
 }
 
 img { 
