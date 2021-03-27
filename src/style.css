@@ -68,9 +68,10 @@ strong {
 
 .intro-header {
   position: relative;
+  text-align: center;
 }
 
-.intro-text{
+.intro{
   position: absolute;
   left: 50%;
   transform: translate(-50%, 30%)
@@ -88,12 +89,12 @@ h1.intro--title {
 
 .intro--title--first {
   display: block;
-  animation: moveInLeft 1.5s ease-out 
+  animation: moveInLeft 1s ease-out 
 }
 
 .intro--title--second {
   display: block;
-  animation: moveInRight 1.5s ease-out
+  animation: moveInRight 1s ease-out
 }
 
 .intro--subtitle {
@@ -103,7 +104,7 @@ h1.intro--title {
   line-height: 1.9;
   text-align: center;
   animation: moveInBottom 1s ease-out;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 
@@ -144,6 +145,57 @@ h1.intro--title {
       transform: translate(0);
 
   }
+}
+
+.btn { 
+  border-width: 5px;
+  border-style: solid;
+  background-color: papayawhip;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:var(--clr-second);
+  color: var(--clr-second);
+  font-size: 30px;
+  text-transform: lowercase;
+  margin: 15px 20px 20px 15px;
+  padding: 15px 40px;
+}
+
+.btn:link, 
+.btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  transition: all .2s;
+  
+  position: relative;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  /* background: var(--clr-second);
+  color: white; */
+  box-shadow: 0 2px 5px rgba(255, 0, 255, 0.89)
+}
+
+.btn:active { 
+  transform: translateY(-1px);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-home {
+  /* border-width: 5px;
+  border-style: solid;
+  background-color: papayawhip;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:var(--clr-second);
+  color: var(--clr-second);
+  font-size: 40px; */
+  cursor: pointer;
+  
 }
 
 img { 
