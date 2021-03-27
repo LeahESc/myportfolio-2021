@@ -187,17 +187,17 @@ h1.intro--title {
 }
 
 .btn-home {
-  /* border-width: 5px;
-  border-style: solid;
-  background-color: papayawhip;
-  border-radius: 5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color:var(--clr-second);
-  color: var(--clr-second);
-  font-size: 40px; */
   cursor: pointer;
-  
+}
+
+.btn-animated {
+  animation-name: moveInBottom;
+  animation-duration: .5s;
+  animation-delay: .75s;
+  animation-timing-function: ease-out;
+  /* automatically applies the styles of the 0% animation */
+  animation-fill-mode: backwards;
+
 }
 
 img { 
@@ -316,21 +316,40 @@ p.project-highlight {
   font-weight: var(--fw-bold)
 }
 
+.footer-container {
+  /* position: relative; */
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
 .footer {
-  background-color: var(--clr-background);
-  color: var(--clr-accent);
+  display: block;
+  background-color: var(--clr-ltmango);
+  color: var(--clr-bkground);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 100px; */
+  position: fixed;
+
 }
 
 .footer a { 
-  color: var(--clr-accent);
+  color: var(--clr-bkground);
   text-decoration: none;
+  
+}
+
+.footer a:hover { 
+  color: var(--clr-accent)
 }
 
 .footer__link {
- 
   font-weight: var(var(--fw-bold));
 }
 

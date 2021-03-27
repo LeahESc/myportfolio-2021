@@ -4,17 +4,21 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Work from './Components/Work'
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer'
 
 
 function App() {
   return (
+    <div className="portfolio">
     <Router> 
-    
+      
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/work' component={Work} />
       
     </Router>
+    <Footer/>
+    </div>
   );
 }
 
