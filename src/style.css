@@ -18,7 +18,9 @@
   --clr-light: #fff;
   --clr-dark: #000000;
   --clr-accent: #ff82e4;
-  --clr-bkground: papayawhip;
+  --clr-bkground: #ffefd5;
+  --clr-blush: #ffb5a7; 
+  --clr-ltmango: #FFC48B;
   /* --clr-bkground: #fac4a5; */
   --clr-second: #fab68e;
 
@@ -154,8 +156,8 @@ h1.intro--title {
   border-radius: 5px;
   border-width: 5px;
   border-style: solid;
-  border-color:var(--clr-second);
-  color: var(--clr-second);
+  border-color:var(--clr-blush);
+  color: var(--clr-blush);
   font-size: 30px;
   text-transform: lowercase;
   margin: 15px 20px 20px 15px;
@@ -176,12 +178,12 @@ h1.intro--title {
   transform: translateY(-3px);
   /* background: var(--clr-second);
   color: white; */
-  box-shadow: 0 2px 5px rgba(255, 0, 255, 0.89)
+  box-shadow: 0 2px 10px rgba(255, 181, 42, 0.89)
 }
 
 .btn:active { 
   transform: translateY(-1px);
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-home {
