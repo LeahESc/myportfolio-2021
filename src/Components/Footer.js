@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="footer-container">
+        <div className="footer-main">
             <div className="footer">
 
                 <a href="mailto:leahemily1@gmail.com" className="footer-link">leahemily1@gmail.com</a>

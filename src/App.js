@@ -9,15 +9,17 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div className="portfolio">
+    <div className="portfolio-container">
+      <div className="content-wrap">
     <Router> 
-      
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/work' component={Work} />
-      
     </Router>
+     </div>
+    
     <Footer/>
+      
     </div>
   );
 }

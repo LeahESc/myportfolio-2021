@@ -1,16 +1,17 @@
 *, 
 *::before,
 *::after {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+
 
 :root {
   --ff-primary: 'Epilogue', sans-serif;;
   --ff-secondary: 'Source Code Pro', monospace;
   --ff-display: 'Reem Kufi', sans-serif;
-
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -24,13 +25,20 @@
   /* --clr-bkground: #fac4a5; */
   --clr-second: #fab68e;
 
-
   --fs-h1: 9rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem; 
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25);
+}
+
+body { 
+  background-color: var(--clr-bkground);
+  color: var(--clr-accent);
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1.6;
 }
 
 @media (min-width: 800px) {
@@ -51,13 +59,18 @@ strong {
   font-weight: var(--fw-bold)
 }
 
-.body { 
-  background: var(--clr-bkground);
-  color: var(--clr-accent);
-  margin: 0;
-  font-size: var(--fs-body);
-  line-height: 1.6;
-  height: 100%;
+
+.portfolio-container {
+  /* background-color: var(--clr-bkground); */
+  display: flex;
+  flex-direction: column;
+  min-height: 130vh;
+  /* width: 100% */
+}
+
+.content-wrap {
+  flex: 1;
+  /* padding: 50px 50px 50px 50px */
 }
 
 .navbar{
@@ -76,7 +89,7 @@ strong {
 .intro{
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 30%)
+  transform: translate(-50%, 20%)
 }
 
 h1.intro--title {
@@ -316,16 +329,16 @@ p.project-highlight {
   font-weight: var(--fw-bold)
 }
 
-.footer-container {
-  /* position: relative; */
-  display: block;
-  padding: 20px;
-  height: 60px;
-  width: 100%;
+.footer-main {
+  position: relative;
+  /* padding: 0px 0px 200px; */
+  bottom: 0;
+  left: 0;
+  /* margin-top: 120vh; */
 }
 
 .footer {
-  display: block;
+  /* display: block; */
   background-color: var(--clr-ltmango);
   color: var(--clr-bkground);
   text-align: center;
@@ -334,8 +347,9 @@ p.project-highlight {
   bottom: 0;
   left: 0;
   right: 0;
-  /* height: 100px; */
-  position: fixed;
+  position: absolute; 
+  width: 100%;
+
 
 }
 
