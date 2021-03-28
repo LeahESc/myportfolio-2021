@@ -214,7 +214,7 @@ h1.intro--title {
 }
 
 img { 
-    /* display: block; */
+    display: block;
     max-width: 100%;
     align-content: right;
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import leahpic from '../images/leahpic.png'
 import {Grid} from 'semantic-ui-react'
+// import Navbar from './Navbar'
 
 export default function About() {
     return (
         <div className="about">
-         
+            {/* <Navbar /> */}
             <Grid columns={2}>
                 <Grid.Column width={6}>
                     <div className="img-container">
