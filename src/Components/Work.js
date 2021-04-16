@@ -17,7 +17,9 @@ class Work extends Component {
                             <iframe src="https://www.youtube.com/embed/4yJX0-LJ02w" 
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                             </iframe>
+                           
                         </div>
+                       
                     </Grid.Column>
                     <Grid.Column width={8}>
                         <p className="project-description">
@@ -26,6 +28,10 @@ class Work extends Component {
                             For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
                                 <br/>
                                 <br/>
+                                <div className="btn-container">
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Frontend</a> 
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Backend</a> 
+                                </div>
                             {/* <strong> The Why:</strong> I was inspired to make this project by the independently-generated google sheets and excel documents that circulated throughout LA in the summer of 2020 highlighting black-owned businesses in Los Angeles.
                             I wanted this application to echo that sentiment of conscious consumerism as well as celebrate the diversity of business-owners in Los Angeles. */}
 

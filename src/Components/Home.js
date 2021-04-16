@@ -4,7 +4,7 @@ import TechSkills from './TechSkills'
 import Work from './Work'
 
 import About from './About'
-import Footer from './Footer'
+
 
 export default function Home() {
     return (

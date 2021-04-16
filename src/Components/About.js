@@ -23,6 +23,12 @@ export default function About() {
                     <br/>
                 </p>
             </Grid.Column>
+            <Grid.Row>
+    
+            </Grid.Row>
+            <Grid.Row>
+    
+            </Grid.Row>
             </Grid>
         </div>
     )

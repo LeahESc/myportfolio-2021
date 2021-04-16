@@ -33,14 +33,6 @@
   --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25);
 }
 
-body { 
-  background-color: var(--clr-bkground);
-  color: var(--clr-accent);
-  margin: 0;
-  font-size: var(--fs-body);
-  line-height: 1.6;
-}
-
 @media (min-width: 800px) {
     :root {  
     --fs-h1: 9.75rem;
@@ -53,6 +45,15 @@ body {
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%
+}
+
+body { 
+  /* background-color: var(--clr-bkground); */
+  color: var(--clr-accent);
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1.4rem;
 }
 
 strong {
@@ -61,16 +62,19 @@ strong {
 
 
 .portfolio-container {
-  /* background-color: var(--clr-bkground); */
+  /* background-color: var(--clr-bkground);
   display: flex;
-  flex-direction: column;
-  min-height: 130vh;
-  /* width: 100% */
+  flex-direction: column; */
+  min-height: 100vh;
+  width: 100%
 }
 
 .content-wrap {
-  flex: 1;
-  /* padding: 50px 50px 50px 50px */
+  /* padding: 50px 50px 50px 150px */
+}
+
+a {
+  color: var(--clr-second)
 }
 
 .navbar{
@@ -331,24 +335,23 @@ p.project-highlight {
 
 .footer-main {
   position: relative;
-  /* padding: 0px 0px 200px; */
+  /* min-height: 100vh; */
   bottom: 0;
   left: 0;
   /* margin-top: 120vh; */
 }
 
 .footer {
-  /* display: block; */
+  display: block;
   background-color: var(--clr-ltmango);
   color: var(--clr-bkground);
   text-align: center;
-  padding: 2.5em 0;
+  margin-top: 1rem;
+  padding: 1.5rem 0;
   font-size: var(--fs-h3);
-  bottom: 0;
-  left: 0;
-  right: 0;
   position: absolute; 
   width: 100%;
+  z-index: 0
 
 
 }
