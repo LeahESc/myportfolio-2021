@@ -229,9 +229,9 @@ h1, h2, h3 {
 }
 
 .technical-skills{
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 5%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 h2.technical-skills{
