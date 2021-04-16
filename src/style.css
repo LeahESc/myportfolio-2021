@@ -167,18 +167,18 @@ h1.intro--title {
 }
 
 .btn { 
-  border-width: 5px;
+  border-width: .5rem;
   border-style: solid;
   background-color: papayawhip;
-  border-radius: 5px;
-  border-width: 5px;
+  border-radius: .5rem;
+  border-width: .5rem;
   border-style: solid;
   border-color:var(--clr-blush);
   color: var(--clr-blush);
-  font-size: 30px;
+  font-size: 2rem;
   text-transform: lowercase;
-  margin: 15px 20px 20px 15px;
-  padding: 15px 40px;
+  margin: 1rem 2rem 2rem 1rem;
+  padding: 1rem 3rem;
 }
 
 .btn:link, 
@@ -195,12 +195,12 @@ h1.intro--title {
   transform: translateY(-3px);
   /* background: var(--clr-second);
   color: white; */
-  box-shadow: 0 2px 10px rgba(255, 181, 42, 0.89)
+  box-shadow: 0 .2rem 1rem rgba(255, 181, 42, 0.89)
 }
 
 .btn:active { 
   transform: translateY(-1px);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 .1rem .5rem rgba(0, 0, 0, 0.2);
 }
 
 .btn-home {
@@ -297,6 +297,17 @@ h2.section__title--work {
   margin-bottom: 3em;
 }
 
+.projectimage-container { 
+  width: 100%;
+  background:var(--clr-second);
+  /* padding: 4px; */
+  align-items: center;
+}
+
+.projectimage { 
+  padding: 1rem
+}
+
 .video-container {
   overflow: hidden;
   position: relative;
@@ -328,6 +339,20 @@ h2.section__title--work {
   color: var(--clr-second)
 }
 
+.btn-container { 
+  display: block;
+  justify-content: center;
+}
+.btn-work {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.btn-work:hover {
+  color: inherit
+}
+
+
 p.project-highlight {
   color: var(--clr-accent);
   font-weight: var(--fw-bold)
@@ -336,8 +361,8 @@ p.project-highlight {
 .footer-main {
   position: relative;
   /* min-height: 100vh; */
-  bottom: 0;
-  left: 0;
+  /* bottom: 0; */
+  /* left: 0; */
   /* margin-top: 120vh; */
 }
 
