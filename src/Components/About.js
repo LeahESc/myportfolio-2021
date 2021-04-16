@@ -1,7 +1,7 @@
 import React from 'react'
 import leahpic from '../images/leahpic.png'
 import {Grid} from 'semantic-ui-react'
-// import Navbar from './Navbar'
+import TechSkills from './TechSkills'
 
 export default function About() {
     return (
@@ -22,12 +22,15 @@ export default function About() {
                     After majoring in Art History + Creative Writing in college, I transitioned into marketing which gave me the ability to weave my story-telling skills with my passion for designing eye-catching and communicative materials. I enjoyed marketing but always felt like I was just outside of the action until I had the opportunity to redesign and build a brand new website for a non-profit organization. Working on the website opened my eyes to the world of programming. It was the most fulfilled I had felt in my professional career. I loved being able to play around with custom CSS stylesheets and learning how to craft my own styles and layout. I was hooked. 
                     <br/>
                 </p>
+               
+                <a href="/work" className="btn btn-work btn-animated">resume</a> 
+
+                <a href="/work" className="btn btn-work btn-animated">work</a> 
+               
             </Grid.Column>
+        
             <Grid.Row>
-    
-            </Grid.Row>
-            <Grid.Row>
-    
+                <TechSkills/>
             </Grid.Row>
             </Grid>
         </div>

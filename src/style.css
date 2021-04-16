@@ -293,7 +293,7 @@ h2.section__title--work {
   text-align: center;
   font-family: var(--ff-primary);
   color: var(--clr-accent);
-  animation: moveInBottom 1s ease-in;
+  animation: moveInLeft 1s ease-in;
   
 }
 
@@ -303,7 +303,7 @@ h2.section__title--work {
   color: var(--clr-accent);
   font-weight: 800;
   /* margin-bottom: 3em; */
-  animation: moveInBottom 1s ease-in;
+  animation: moveInLeft 1s ease-in;
 }
 
 .project-container {

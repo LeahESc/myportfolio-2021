@@ -6,6 +6,12 @@ import vacationhomes from '../images/vacationhomes.png'
 import tripmaker from '../images/tripmaker.png'
 
 class Work extends Component {
+
+
+    handleHover = (e) => {
+        return <p>Click to view demo</p>
+    }
+
     render() {
         return (
             <>
@@ -17,7 +23,7 @@ class Work extends Component {
                     <Grid.Row >
                     <Grid.Column width={8}>  */}
                     <div className="project-container">
-                        <div className="projectimage-container">
+                        <div className="projectimage-container" onHover={this.handleHover}>
                             <div className="projectimage">
                             <img src={smallshops}></img>
                            </div>
@@ -86,7 +92,7 @@ class Work extends Component {
                     <Grid.Row>
                     <Grid.Column width={8}>  */}
                     <div className="project-container">
-                        <div className="projectimage-container">
+                        <div className="projectimage-container" >
                             <div className="projectimage">
                                 <img src={tripmaker}></img>
                             </div>
@@ -113,7 +119,7 @@ class Work extends Component {
                 {/* </Grid> */}
                 
             </div>
-            <TechSkills/>
+            
             </>
         )
     }

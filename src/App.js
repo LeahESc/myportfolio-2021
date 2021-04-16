@@ -12,13 +12,15 @@ function App() {
     <div className="portfolio-container">
       {/* <div className="content-wrap"> */}
     <Router> 
+        <Navbar/>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/work' component={Work} />
+        <Footer/>
     </Router>
      {/* </div> */}
     
-    <Footer/>
+    
       
     </div>
   );
