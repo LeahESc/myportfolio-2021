@@ -166,6 +166,7 @@ h1.intro--title {
   }
 }
 
+
 .btn { 
   border-width: .5rem;
   border-style: solid;
@@ -175,7 +176,7 @@ h1.intro--title {
   border-style: solid;
   border-color:var(--clr-blush);
   color: var(--clr-blush);
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-transform: lowercase;
   margin: 1rem 2rem 2rem 1rem;
   padding: 1rem 3rem;
@@ -220,7 +221,6 @@ h1.intro--title {
 img { 
     display: block;
     max-width: 100%;
-    align-content: right;
 }
 
 h1, h2, h3 {
@@ -252,12 +252,15 @@ h2.technical-skills{
 
 .about {
   align-content: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .img-container {
   max-width: 500px;
   max-height: 600px;
   float: right;
+  animation: moveInLeft 1s ease-out;
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
 }
 
 h2.about-me {
@@ -265,18 +268,22 @@ h2.about-me {
   font-family: var(--ff-primary);
   font-weight: 800;
   color: var(--clr-accent);
+  animation: moveInRight 1s ease-out
 }
 
 p.about-me {
   font-size: var(--fs-h3);
   margin-right: 2em;
-  color: var(--clr-second)
+  color: var(--clr-second);
+  animation: moveInRight 1s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 .my-work{
   padding: 2%;
   margin-top: 40px;
- 
+  display: block;
   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
 
 }
@@ -285,7 +292,8 @@ h2.section__title--work {
   font-size: 8.5em;
   text-align: center;
   font-family: var(--ff-primary);
-  color: var(--clr-accent)
+  color: var(--clr-accent);
+  animation: moveInBottom 1s ease-in;
   
 }
 
@@ -294,29 +302,46 @@ h2.section__title--work {
   font-size: var(--fs-h2);
   color: var(--clr-accent);
   font-weight: 800;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
+  animation: moveInBottom 1s ease-in;
+}
+
+.project-container {
+  max-width: 100%;
+  align-items: center;
+  padding: 1rem;
 }
 
 .projectimage-container { 
-  width: 100%;
+  width: 50%;
   background:var(--clr-accent);
   /* padding: 4px; */
   align-items: center;
+  display: inline-block;
+  vertical-align: top;
+  animation: moveInLeft 2s ease-in;
+  box-shadow: 0 .1rem .1rem rgba(29, 23, 28, 0.89)
+}
+
+.projectimage-container:hover { 
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem .5rem rgba(29, 23, 28, 0.89)
+
 }
 
 .projectimage { 
-  padding: 1rem;
+  padding: .5rem;
   max-width: 90rem;
   max-height: 41rem;
 }
 
-.video-container {
+/* .video-container {
   overflow: hidden;
   position: relative;
   width: 100%;
   background:var(--clr-accent);
   /* padding: 4px; */
-  align-items: center;
+  /* align-items: center;
 }
 
 .video-container::after {
@@ -327,12 +352,20 @@ h2.section__title--work {
 
 .video-container iframe {
   position: absolute;
-  align-self: center;
+  align-self: center; */
   /* top: 0;
   left: 0; */
-  padding: 15px;
+  /* padding: 15px;
   width: 100%;
   height: 100%;
+} */ 
+
+.description-container {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 2rem;
+  animation: moveInRight 2s ease-in;
 }
 
 .project-description {
@@ -346,13 +379,16 @@ h2.section__title--work {
   justify-content: center;
 }
 .btn-work {
+  text-align: center;
   cursor: pointer;
   margin-left: 1rem;
 }
 
 .btn-work:hover {
-  color: inherit
+  color: papayawhip;
+  background-color: var(--clr-second);
 }
+
 
 
 p.project-highlight {
