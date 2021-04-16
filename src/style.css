@@ -299,20 +299,22 @@ h2.section__title--work {
 
 .projectimage-container { 
   width: 100%;
-  background:var(--clr-second);
+  background:var(--clr-accent);
   /* padding: 4px; */
   align-items: center;
 }
 
 .projectimage { 
-  padding: 1rem
+  padding: 1rem;
+  max-width: 90rem;
+  max-height: 41rem;
 }
 
 .video-container {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background:var(--clr-second);
+  background:var(--clr-accent);
   /* padding: 4px; */
   align-items: center;
 }

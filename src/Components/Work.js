@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import {Item, Label, Image, Grid, Column, Row} from 'semantic-ui-react'
 import TechSkills from './TechSkills'
+import smallshops from '../images/smallshops.png'
+import vacationhomes from '../images/vacationhomes.png'
+import tripmaker from '../images/tripmaker.png'
 
 class Work extends Component {
     render() {
@@ -14,16 +17,15 @@ class Work extends Component {
                     <Grid.Row >
                     <Grid.Column width={8}> 
                         <div className="projectimage-container">
-                            {/* <iframe src="https://www.youtube.com/embed/4yJX0-LJ02w" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                            </iframe> */}
-                           
+                            <div className="projectimage">
+                            <img src={smallshops}></img>
+                           </div>
                         </div>
                        
                     </Grid.Column>
                     <Grid.Column width={8}>
                         <p className="project-description">
-                            <strong>Small Shops Big Community</strong> was built with a React/Redux frontend and Rails API backend. 
+                            <strong>Small Shops Big Community</strong> was built with a React/Redux frontend and a Ruby on Rails backend. 
                             This yelp-style application allows a user to search for a type of business and select one or many 'community-parameters' that they'd like to support with their conscious consumer dollars. 
                             For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
                                 <br/>
@@ -46,10 +48,10 @@ class Work extends Component {
                     </Grid.Row>
                     <Grid.Row>
                     <Grid.Column width={8}> 
-                        <div className="video-container">   
-                            <iframe src="https://www.youtube.com/embed/v6jWvsM1jN0?start=4" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                            </iframe>
+                        <div className="projectimage-container">
+                            <div className="projectimage">
+                                <img src={vacationhomes}></img>
+                            </div>
                         </div>
                     </Grid.Column>
                     <Grid.Column width={8}>
@@ -74,10 +76,10 @@ class Work extends Component {
                     </Grid.Row>
                     <Grid.Row>
                     <Grid.Column width={8}> 
-                        <div class="video-container">  
-                            <iframe src="https://www.youtube.com/embed/SR-Ia6gjizM?start=2" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                            </iframe>
+                        <div className="projectimage-container">
+                            <div className="projectimage">
+                                <img src={tripmaker}></img>
+                            </div>
                         </div>
                     </Grid.Column>
                     <Grid.Column width={8}>
