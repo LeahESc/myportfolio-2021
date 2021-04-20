@@ -1,8 +1,7 @@
 import React from 'react'
 
-export default function Footer() {
+function Footer() {
     return (
-        <div className="footer-main">
             <div className="footer">
 
                 <a href="mailto:leahemily1@gmail.com" className="footer-link">leahemily1@gmail.com</a>
@@ -19,6 +18,6 @@ export default function Footer() {
                 </ul>
 
             </div>
-        </div>
     )
 }
+export default Footer;

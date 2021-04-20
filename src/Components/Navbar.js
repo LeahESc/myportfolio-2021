@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         < div >
-            <nav className="navbar navbar-light">
+            <nav className="navbar navbar-light" >
                 <Link to='/'>
                     <Icon name='home' size='big' color='yellow'/>
                 </Link>

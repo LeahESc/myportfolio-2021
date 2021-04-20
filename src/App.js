@@ -10,7 +10,7 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <div className="portfolio-container">
-      {/* <div className="content-wrap"> */}
+      <div className="content-wrap">
     <Router> 
         <Navbar/>
         <Route exact path='/' component={Home} />
@@ -18,7 +18,7 @@ function App() {
         <Route exact path='/work' component={Work} />
         <Footer/>
     </Router>
-     {/* </div> */}
+     </div>
     
     
       
