@@ -13,7 +13,7 @@ export default function Home() {
                 </h1>
 
                 <div className="intro--subtitle">
-                        Full Stack Software Engineer + lover of pho 
+                        Full Stack Software Engineer + lover of pho &#x1F35C;
                 </div>
                 
                 <Link to="/about">

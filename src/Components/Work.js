@@ -13,7 +13,7 @@ class Work extends Component {
     render() {
         return (
             <div className="my-work" id="projects">    
-                <p className="section__subtitle--work">Technical Projects</p>
+                <h2 className="section__title--work">Technical Projects</h2>
                 {/* <p className="section__subtitle--work">A few examples of my most recent work</p> */}
                 {/* <Grid columns={2} >
                     <Grid.Row >

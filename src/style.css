@@ -81,6 +81,7 @@ a {
   text-align: right;
   font-weight: 800;
   margin-right: 2rem;
+  margin-top: 1rem;
 }
 
 .intro-header {
@@ -304,9 +305,7 @@ p.about-me {
 
   .about-me-container {
     margin-left: 20%
-
   }
-
 }
 
 .my-work{
@@ -314,15 +313,15 @@ p.about-me {
   margin-top: 40px;
   /* display: flex; */
   /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
-
 }
 
 h2.section__title--work {
-  font-size: 8.5em;
+  font-size: 5rem;
   text-align: center;
   font-family: var(--ff-primary);
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   animation: moveInLeft 1s ease-in;
+  font-weight: 800;
   
 }
 
@@ -345,7 +344,7 @@ h2.section__title--work {
 }
 
 .projectimage-container { 
-  width: 40%;
+  width: 50%;
   /* background:var(--clr-blush); */
   /* padding: 4px; */
   align-items: center;
@@ -393,7 +392,7 @@ h2.section__title--work {
 } */ 
 
 .description-container {
-  width: 60%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
   align-items: center;
@@ -415,26 +414,27 @@ h2.section__title--work {
   display: inline-block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .project-container {
     flex-direction: column;
   }
   .projectimage-container,
-  .project-description {
+  .description-container {
     width: 100%;
+  }
+
+  .description-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .project-description { 
     padding-top: 1rem;
-    margin: 0 0 0 0
   }
 }
 
 .btn-container { 
   display: block;
-  margin-left: 25%;
-  /* align-items: center; */
-  /* margin-left: 3rem; */
 }
 
 /* .btn-work {
