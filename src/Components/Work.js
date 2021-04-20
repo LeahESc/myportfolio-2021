@@ -9,16 +9,14 @@ class Work extends Component {
 
 
     handleHover = (e) => {
-        return <p>Click to view demo</p>
+        // return <p>Click to view demo</p>
     }
 
     render() {
         return (
-            <>
-            {/* <TechSkills/> */}
             <div className="my-work" id="projects">    
-                <h2 className="section__title--work">Technical Projects</h2>
-                <p className="section__subtitle--work">A few examples of my most recent work</p>
+                <p className="section__subtitle--work">Technical Projects</p>
+                {/* <p className="section__subtitle--work">A few examples of my most recent work</p> */}
                 {/* <Grid columns={2} >
                     <Grid.Row >
                     <Grid.Column width={8}>  */}
@@ -33,9 +31,10 @@ class Work extends Component {
                     <Grid.Column width={8}> */}
                     <div className="description-container">
                         <p className="project-description">
-                            <strong>Small Shops Big Community</strong> was built with a React/Redux frontend and a Ruby on Rails backend. 
+                            <p className="project-title">Small Shops Big Community</p> was built with a React/Redux frontend and a Ruby on Rails backend. 
                             This yelp-style application allows a user to search for a type of business and select one or many 'community-parameters' that they'd like to support with their conscious consumer dollars. 
                             For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
+                            </p>
                                 <br/>
                                 <br/>
                                 <div className="btn-container">
@@ -50,7 +49,7 @@ class Work extends Component {
                             {/* <strong>The Challenge:</strong> There were a number of challenges with this project, one of the biggest ones was figuring out how to properly structure and organize the Redux store. A user has the ability to add new shops as well as
                             new reviews. Instead of having separate state objects for shops and reviews, I wanted to nest each of these within the larger 'category' object. A single category knows about all of its shops and
                             all of its shops' reviews. Figuring out the proper nesting structure took a lot of trial and error but eventually I was able to have everything in global state relate to a category object. */}
-                        </p>
+                        
                         </div>
                         </div>
                     {/* </Grid.Column>
@@ -119,9 +118,8 @@ class Work extends Component {
                 {/* </Grid> */}
                 
             </div>
-            
-            </>
         )
     }
 }
+
 export default Work;

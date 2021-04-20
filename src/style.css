@@ -17,10 +17,10 @@
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #000000;
+  --clr-dark: #4b4a4a;
   --clr-accent: #ff82e4;
   --clr-bkground: #ffefd5;
-  --clr-blush: #ffb5a7; 
+  --clr-blush: rgb(245, 169, 153); 
   --clr-ltmango: #FFC48B;
   /* --clr-bkground: #fac4a5; */
   --clr-second: #fab68e;
@@ -50,7 +50,7 @@ html {
 
 body { 
   /* background-color: var(--clr-bkground); */
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   margin: 0;
   font-size: var(--fs-body);
   line-height: 1.4rem;
@@ -97,7 +97,7 @@ a {
 }
 
 h1.intro--title {
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   font-family: var(--ff-primary);
   font-size: 14rem;
   font-weight: 800;
@@ -118,7 +118,7 @@ h1.intro--title {
 
 .intro--subtitle {
   font-family: var(--ff-primary);
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   font-size: 2em;
   line-height: 1.9;
   text-align: center;
@@ -300,7 +300,7 @@ h2.section__title--work {
 .section__subtitle--work { 
   text-align: center;
   font-size: var(--fs-h2);
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   font-weight: 800;
   /* margin-bottom: 3em; */
   animation: moveInLeft 1s ease-in;
@@ -315,13 +315,13 @@ h2.section__title--work {
 
 .projectimage-container { 
   width: 40%;
-  background:var(--clr-accent);
+  /* background:var(--clr-blush); */
   /* padding: 4px; */
   align-items: center;
   display: inline-block;
   vertical-align: top;
   animation: moveInLeft 2s ease-in;
-  box-shadow: 0 .1rem .1rem rgba(29, 23, 28, 0.89)
+  /* box-shadow: 0 .1rem .1rem rgba(29, 23, 28, 0.89) */
 }
 
 .projectimage-container:hover { 
@@ -331,7 +331,7 @@ h2.section__title--work {
 }
 
 .projectimage { 
-  padding: .5rem;
+  /* padding: .5rem; */
   max-width: 90rem;
   max-height: 41rem;
 }
@@ -370,9 +370,18 @@ h2.section__title--work {
 }
 
 .project-description {
-  font-size: var(--fs-h3);
+  font-size: 1.35rem;
   font-family: var(--ff-primary);
-  color: var(--clr-second)
+  color: var(--clr-dark); 
+  align-items: center;
+ 
+}
+
+.project-title { 
+  font-size: 1.45rem;
+  font-weight: bold;
+  color: var(--clr-dark);
+  display: inline-block;
 }
 
 @media (max-width: 767px) {
