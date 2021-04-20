@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Icon } from 'semantic-ui-react'
 
-// export default class Navbar extends Component {
 const Navbar = () => { 
 
     return (

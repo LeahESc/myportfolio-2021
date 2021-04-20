@@ -7,11 +7,12 @@ import _htm from '../images/_htm.png'
 import _cas from '../images/_cas.png'
 import _sq from '../images/_sq.png'
 
-function TechSkills() { 
-    
+const TechSkills = () => { 
+
     return (
         <div className="technical-skills"  >
             <h2 className="technical-skills">Technical Skills</h2>
+            
             <div className="tech-img-container">
                 <img className="tech-skill" src={_rea} alt="react"></img>
                 <img className="tech-skill" src={_red} alt="redux"></img>
@@ -21,6 +22,7 @@ function TechSkills() {
                 <img className="tech-skill" src={_cas} alt="css"></img>
                 <img className="tech-skill" src={_sq} alt="sql"></img>
             </div>
+            
         </div>
     )
  }

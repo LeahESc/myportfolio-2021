@@ -13,24 +13,19 @@ export default function Home() {
                 </h1>
 
                 <div className="intro--subtitle">
-                        Full Stack Software Engineer + lover of pho &#x1F35C;
+                    Full Stack Software Engineer + lover of pho &#x1F35C;
                 </div>
                 
                 <Link to="/about">
-                <button className="btn btn-home btn-animated">About</button>
+                    <button className="btn btn-home btn-animated">About</button>
                 </Link>
+                
                 <Link to="/work">
-                <button className="btn btn-home btn-animated">Work</button>
+                    <button className="btn btn-home btn-animated">Work</button>
                 </Link>
-                {/* <Link to="/technical skills">
-                <button className="btn btn-home">Technical Skills</button>
-                </Link> */}
 
             </div>
         </div>
-        {/* <TechSkills />
-        <About />
-        <Work /> */}
         </>
     
     )
