@@ -19,9 +19,9 @@
   --clr-light: #fff;
   --clr-dark: #4b4a4a;
   --clr-accent: #ff82e4;
-  --clr-bkground: #ffefd5;
-  --clr-blush: rgb(245, 169, 153); 
-  --clr-ltmango: #FFC48B;
+  --clr-bkground: #fff3df;
+  --clr-blush: rgb(238, 154, 137); 
+  --clr-ltmango: #ffba7a;
   /* --clr-bkground: #fac4a5; */
   --clr-second: #fab68e;
 
@@ -172,14 +172,14 @@ h1.intro--title {
   border-style: solid;
   background-color: papayawhip;
   border-radius: .5rem;
-  border-width: .5rem;
+  border-width: .35rem;
   border-style: solid;
   border-color:var(--clr-blush);
   color: var(--clr-blush);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-transform: lowercase;
-  margin: 1rem 2rem 2rem 1rem;
-  padding: 1rem 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 2rem;
 }
 
 .btn:link, 
@@ -196,6 +196,8 @@ h1.intro--title {
   transform: translateY(-3px);
   /* background: var(--clr-second);
   color: white; */
+  color: papayawhip;
+  background-color: var(--clr-second);
   box-shadow: 0 .2rem 1rem rgba(255, 181, 42, 0.89)
 }
 
@@ -238,7 +240,7 @@ h2.technical-skills{
   font-size: var(--fs-h2);
   text-align: center;
   font-family: var(--ff-primary);
-  color: var(--clr-accent)
+  color: var(--clr-blush)
 }
 
 .tech-img-container {
@@ -267,14 +269,14 @@ h2.about-me {
   font-size: 4.5em;
   font-family: var(--ff-primary);
   font-weight: 800;
-  color: var(--clr-accent);
+  color: var(--clr-blush);
   animation: moveInRight 1s ease-out
 }
 
 p.about-me {
   font-size: var(--fs-h3);
-  margin-right: 2em;
-  color: var(--clr-second);
+  margin-right: 4em;
+  color: var(--clr-dark);
   animation: moveInRight 1s ease-out;
   animation-delay: 1s;
   animation-fill-mode: backwards;
@@ -298,8 +300,9 @@ h2.section__title--work {
 }
 
 .section__subtitle--work { 
-  text-align: center;
   font-size: var(--fs-h2);
+  text-align: center;
+  font-family: var(--ff-primary);
   color: var(--clr-blush);
   font-weight: 800;
   /* margin-bottom: 3em; */
