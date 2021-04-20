@@ -38,9 +38,9 @@ class Work extends Component {
                                 <br/>
                                 <br/>
                                 <div className="btn-container">
-                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Frontend</a> 
-                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Backend</a> 
-                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Demo</a> 
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-home" >Frontend</a> 
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-home" >Backend</a> 
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-home" >Demo</a> 
                                 </div>
                             
                             {/* <strong> The Why:</strong> I was inspired to make this project by the independently-generated google sheets and excel documents that circulated throughout LA in the summer of 2020 highlighting black-owned businesses in Los Angeles.
@@ -73,15 +73,15 @@ class Work extends Component {
                             location, number of bedrooms/bathrooms as well as other amenities.
                             <br/>
                             <br/>
+                            </p>
                             <div className="btn-container">
                                     <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Frontend</a> 
                                     <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Backend</a> 
-                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Demo</a> 
-                                    
+                                    <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Demo</a>   
                                 </div>
                             {/* <strong> The Why:</strong> I wanted to build an application that would allow porperty-owners to manage and track their various vacation homes.
                             In a future build-out I'd like to add the option to add whether a particular property is being rented at the current moment. */}
-                        </p>
+                        
                         </div>
                         </div>
                     {/* </Grid.Column>
@@ -103,13 +103,14 @@ class Work extends Component {
                             <strong>Trip Itinerary Maker </strong> is a vanilla Javascript project that allows users to plan detailed itineraries for upcoming travel destinations.
                             <br/>
                             <br/>
+                            </p>
                             <div className="btn-container">
                                     <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Frontend</a> 
                                     <a href="https://github.com/LeahESc/small-shops-big-community-react" className="btn btn-work" >Backend</a> 
                             </div>
                             {/* <strong> The Why:</strong> When I travel I like to create google documents outlining all of the museums, sights, and restaurants I want to visit at every destination. I wanted to create 
                             an application that would keep all that information in one place, organized by category and trip destination. */}
-                        </p>
+                       
                     </div>
                     </div>
                         

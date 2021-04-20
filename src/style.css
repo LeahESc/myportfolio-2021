@@ -370,7 +370,7 @@ h2.section__title--work {
   display: inline-block;
   vertical-align: top;
   align-items: center;
-  /* margin-left: 3rem; */
+  margin-left: 6rem;
   animation: moveInRight 2s ease-in;
 }
 
@@ -378,7 +378,7 @@ h2.section__title--work {
   font-size: 1.35rem;
   font-family: var(--ff-primary);
   color: var(--clr-dark); 
-  padding: 6rem;
+  /* margin-left: 4rem; */
 }
 
 .project-title { 
@@ -396,10 +396,16 @@ h2.section__title--work {
   .project-description {
     width: 100%;
   }
+
+  .project-description { 
+    padding-top: 1rem;
+    margin: 0 0 0 0
+  }
 }
 
 .btn-container { 
   display: block;
+  margin-left: 25%;
   /* align-items: center; */
   /* margin-left: 3rem; */
 }
