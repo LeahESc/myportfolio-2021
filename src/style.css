@@ -314,6 +314,7 @@ h2.section__title--work {
   align-items: center;
   padding: 1rem;
   display: flex;
+  margin-top: 8rem;
 }
 
 .projectimage-container { 
@@ -368,7 +369,8 @@ h2.section__title--work {
   width: 60%;
   display: inline-block;
   vertical-align: top;
-  padding: 2rem;
+  align-items: center;
+  /* margin-left: 3rem; */
   animation: moveInRight 2s ease-in;
 }
 
@@ -376,8 +378,7 @@ h2.section__title--work {
   font-size: 1.35rem;
   font-family: var(--ff-primary);
   color: var(--clr-dark); 
-  align-items: center;
- 
+  padding: 6rem;
 }
 
 .project-title { 
@@ -397,28 +398,29 @@ h2.section__title--work {
   }
 }
 
-
 .btn-container { 
   display: block;
-  justify-content: center;
+  /* align-items: center; */
+  /* margin-left: 3rem; */
 }
-.btn-work {
+
+/* .btn-work {
   text-align: center;
   cursor: pointer;
   margin-left: 1rem;
-}
+} */
 
-.btn-work:hover {
+/* .btn-work:hover {
   color: papayawhip;
   background-color: var(--clr-second);
-}
+} */
 
 
-
+/* 
 p.project-highlight {
   color: var(--clr-accent);
   font-weight: var(--fw-bold)
-}
+} */
 
 .footer-main {
   position: relative;
