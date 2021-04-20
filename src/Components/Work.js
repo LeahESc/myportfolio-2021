@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import {Item, Label, Image, Grid, Column, Row} from 'semantic-ui-react'
-import TechSkills from './TechSkills'
 import smallshops from '../images/smallshops.png'
 import vacationhomes from '../images/vacationhomes.png'
 import tripmaker from '../images/tripmaker.png'

@@ -1,10 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import TechSkills from './TechSkills'
-import Work from './Work'
-
-import About from './About'
-
 
 export default function Home() {
     return (
