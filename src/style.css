@@ -20,7 +20,7 @@
   --clr-dark: #4b4a4a;
   --clr-accent: #ff82e4;
   --clr-bkground: #fff1d9;
-  --clr-blush: rgb(238, 154, 137); 
+  --clr-blush: #ffa08e; 
   --clr-ltmango: #ffba7a;
   /* --clr-bkground: #fac4a5; */
   --clr-second: #fab68e;
@@ -282,7 +282,7 @@ h2.about-me {
   font-family: var(--ff-primary);
   font-weight: 800;
   color: var(--clr-blush);
-  animation: moveInRight 1s ease-out
+  /* animation: moveInRight 1s ease-out */
 }
 
 p.about-me {
