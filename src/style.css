@@ -282,8 +282,10 @@ h2.about-me {
   font-family: var(--ff-primary);
   font-weight: 800;
   color: var(--clr-blush);
-  /* animation: moveInRight 1s ease-out; */
-  ;
+  animation: moveInNormal 1s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+
 }
 
 p.about-me {
@@ -293,6 +295,17 @@ p.about-me {
   animation: moveInRight 1s ease-out;
   animation-delay: 1s;
   animation-fill-mode: backwards;
+}
+
+@keyframes moveInNormal {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0)
+  }
 }
 
 @media (max-width: 767px) {
