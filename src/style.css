@@ -282,7 +282,8 @@ h2.about-me {
   font-family: var(--ff-primary);
   font-weight: 800;
   color: var(--clr-blush);
-  /* animation: moveInRight 1s ease-out */
+  animation: moveInRight 1s ease-out;
+  animation-fill-mode: backwards;
 }
 
 p.about-me {
