@@ -14,7 +14,7 @@ const Footer = () => {
                 <li className="social-list__item">
                     <a href="https://www.instagram.com/leah.schlackman" className="social-list__link"><i className="fab fa-instagram"></i></a></li>
                 <li className="social-list__item">
-                    <a href="https://www.leahschlackman.medium.com" className="social-list__link"><i className="fab fa-blogger"></i></a></li>
+                    <a href="https://leahschlackman.medium.com" className="social-list__link"><i className="fab fa-blogger"></i></a></li>
             </ul>
         </div>
     )
