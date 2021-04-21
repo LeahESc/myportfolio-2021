@@ -298,6 +298,7 @@ p.about-me {
 @media (max-width: 767px) {
 
   .about-container {
+    padding: 5%;
     flex-direction: column;
     align-items: center;
   }
@@ -307,6 +308,7 @@ p.about-me {
   }
 
   .about-me-container {
+    margin-top: 5%;
     margin-left: 20%
   }
 }
