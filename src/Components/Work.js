@@ -18,7 +18,7 @@ const Work = () => {
                     <div className="description-container">
                         <p className="project-description">
                             <p className="project-title">Small Shops Big Community</p> was built with a React/Redux frontend and a Ruby on Rails backend. 
-                            This yelp-style application allows a user to search for a type of business and select one or many 'community-parameters' that they'd like to support with their conscious consumer dollars. 
+                            This Yelp-style application allows a user to search for a type of business and select one or many 'community-parameters' that they'd like to support with their conscious consumer dollars. 
                             For example: a user can search for 'bakeries' owned by individuals who identify as  BIPOC, LGBTQ+, WOMEN/WOMXN, or have a social impact commitment. 
                         </p>
 
@@ -40,7 +40,7 @@ const Work = () => {
                 <div className="description-container">
                     <p className="project-description">
                         <p className="project-title">Vacation Homes Manager</p> was built with Ruby on Rails and SQLite. It allows for third-party authentication through GitHub and Google. 
-                        Users sign up or login to manage their luxurious vacation home properties. A user can create a new property, adding details such as images,
+                        Users sign up or log in to manage their luxurious vacation home properties. A user can create a new property, adding details such as images,
                         location, number of bedrooms/bathrooms as well as other amenities.
                     </p>
                     <div className="btn-container">
