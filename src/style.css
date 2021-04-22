@@ -67,7 +67,7 @@ strong {
 }
 
 .content-wrap {
- padding-bottom: 2rem;
+ padding-bottom: 6.5rem;
 }
 
 a {
@@ -164,6 +164,12 @@ h1.intro--title {
       opacity: 1;
       /* translate(0) makes it look the way it is originally coded to look */
       transform: translate(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-header {
+    padding: 2%;
   }
 }
 
@@ -415,16 +421,18 @@ h2.section__title--work {
   }
 
   .description-container {
-    margin-left: 1rem;
+    margin-left: 1.25rem;
     margin-right: 1rem;
   }
 
   .project-description { 
     padding-top: 1rem;
   }
+
+  .btn-container {
+    margin: 0
+  }
 }
-
-
 
 
 /* footer styles */
