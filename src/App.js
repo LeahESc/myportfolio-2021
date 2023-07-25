@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './Components/Home'
-import About from './Components/About'
-import Work from './Components/Work'
+import Home from './Components/Home';
+import About from './Components/About';
+import Work from './Components/Work';
 import Navbar from './Components/Navbar';
-import Footer from './Components/Footer'
-import ScrollToTop from './Components/ScrollToTop'
+import Footer from './Components/Footer';
+import ScrollToTop from './Components/ScrollToTop';
 
-function App() {
+const App = () => {
   return (
     <div className="portfolio-container">
       <div className="content-wrap">
@@ -23,7 +23,7 @@ function App() {
      <Footer/>
       
     </div>
-  );
-}
+  )
+};
 
 export default App;
